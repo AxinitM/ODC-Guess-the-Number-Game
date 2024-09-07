@@ -4,8 +4,8 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 ## Table of contents
 - [Screenshot](#screenshot)
-- [Guess the Number Game Description](#guess-the-number-game-description)
 - [Links](#Links)
+- [Guess the Number Game Description](#guess-the-number-game-description)
 - [Author](#author)
 
 ## Screenshot
