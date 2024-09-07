@@ -3,16 +3,18 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-
-- [Guess My Number (game)](#guess-my-number-game)
-  - [Table of contents](#table-of-contents)
-  - [Screenshot](#screenshot)
-  - [Guess the Number Game Description](#guess-the-number-game-description)
-  - [Author](#author)
+- [Screenshot](#screenshot)
+- [Guess the Number Game Description](#guess-the-number-game-description)
+- [Links](#Links)
+- [Author](#author)
 
 ## Screenshot
 
 ![](./image/screenshot.png)
+
+## Links
+
+[Guess the Number Game Page](https://axinitm.github.io/ODC-Guess-the-Number-Game/)
 
 ## Guess the Number Game Description
 
