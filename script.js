@@ -3,6 +3,7 @@
 const buttonAgain = document.getElementById("againButton");
 const buttonCheck = document.getElementById("checkButton");
 const buttonRules = document.getElementById("rulesButton");
+const numberInput = document.querySelector(".numberInput");
 
 const message = document.querySelector(".message");
 const inputNumber = document.querySelector(".numberInput");
@@ -14,6 +15,18 @@ let randomNumber;
 let score;
 let highscore = 0;
 let gameOver = false;
+
+// Cleaning placeholder 
+numberInput.addEventListener("focus", function () {
+  numberInput.placeholder = "";
+});
+
+numberInput.addEventListener("blur", function () {
+  if (numberInput.value === "") {
+    numberInput.placeholder = "1...20";
+  }
+});
+
 
 // Checking the validity of the entered number / between 1 and 20 etc.
 
@@ -145,6 +158,7 @@ function restartGame() {
   questionBox.textContent = "?";
   buttonCheck.style.visibility = "visible";
   buttonRules.style.visibility = "visible";
+  numberInput.placeholder = "1...20";
   gameOver = false;
   enableInput();
 }
